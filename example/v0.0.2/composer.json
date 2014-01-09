@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ngyuki/example-psr4": "0.0.2"
+    }
+}
