@@ -1,0 +1,19 @@
+{
+    "name": "ngyuki/example-psr4",
+    "type": "library",
+    "description": "example-psr4",
+    "keywords": [ "example" ],
+    "homepage": "https://github.com/ngyuki/example-psr4",
+    "license": "MIT",
+    "authors": [
+        { "name": "ngyuki", "email": "ngyuki.ts@gmail.com" }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ngyuki\\Example\\Psr4\\": "src/"
+        }
+    }
+}
